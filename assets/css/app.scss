@@ -1,0 +1,18 @@
+/* MAIN STYLESHEET FOR [PROJECT] !important */
+
+/* ------------------------------------------------------------------------------------------- */
+
+/* Bourbon, Bitters, Neat, Media Queries */
+@import '0-plugins/plugins-dir';
+
+/* Base styles, normalize, resets */
+@import '1-base/base-dir';
+
+/* Fun with repeatable modules: Forms, Head bars, UI/UX, and typography */
+@import '2-modules/modules-dir';
+
+/* Individual layouts for pages, templates, custom grids */
+@import '3-layouts/layouts-dir';
+
+/* Fonts, font-awesome, etc. */
+@import '../fonts/fa-scss/font-awesome';
